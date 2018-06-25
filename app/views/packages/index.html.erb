@@ -1,0 +1,30 @@
+<% if notice %>
+<div class="alert alert-info" id="notice"><%= notice %></div>
+<% end %>
+
+<% if @packages.blank? %>
+<div class="text-center text-muted">
+  <i class="far fa-frown fa-7x"></i>
+  <p class="mt-2">No packages found.</p>
+</div>
+<% end %>
+
+<% @packages.each do |package| %>
+<div class="row">
+  <div class="col-6">
+    <h3><%= package.name %></h3>
+    <%= link_to edit_package_path(package), class: 'text-muted mr-2' do %>
+      <i class="fas fa-cog"></i>
+    <% end %>
+    <%= link_to package, method: :delete, data: { confirm: 'Are you sure?' }, class: 'text-muted' do %>
+      <i class="fas fa-trash-alt"></i>
+    <% end %>
+  </div>
+  <div class="col-6 text-right">
+    <span class="display-4 text-success">
+      <%= number_with_precision(package.downloads || 0, :delimiter => ',', :precision => 0) %>
+    </span>
+  </div>
+</div>
+<hr class="my-4" />
+<% end %>

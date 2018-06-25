@@ -1,0 +1,8 @@
+<div class="d-flex align-items-center mb-5">
+  <%= link_to packages_path do %>
+    <i class="fas fa-chevron-left"></i>
+  <% end %>
+  <h2 class="my-0 mx-3">New Package</h2>
+</div>
+
+<%= render 'form', package: @package %>

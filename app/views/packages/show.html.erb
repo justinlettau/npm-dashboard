@@ -1,0 +1,13 @@
+<div class="d-flex align-items-center mb-5">
+  <%= link_to packages_path do %>
+    <i class="fas fa-chevron-left"></i>
+  <% end %>
+  <h2 class="my-0 mx-3"><%= @package.name %></h2>
+  <div>
+    (<%= link_to 'edit', edit_package_path(@package) %>)
+  </div>
+</div>
+
+<% if notice %>
+<div class="alert alert-info" id="notice"><%= notice %></div>
+<% end %>

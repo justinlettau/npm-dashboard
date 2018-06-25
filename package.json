@@ -1,0 +1,20 @@
+{
+  "name": "npm-dashboard",
+  "version": "1.0.0",
+  "description": "Dashboard to show download counts for any repositories you want.",
+  "author": {
+    "name": "Justin Lettau",
+    "email": "me@justinlettau.com",
+    "url": "http://justinlettau.com"
+  },
+  "license": "MIT",
+  "homepage": "https://github.com/justinlettau/npm-dashboard",
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/justinlettau/npm-dashboard"
+  },
+  "bugs": {
+    "url": "https://github.com/justinlettau/npm-dashboard/issues"
+  },
+  "dependencies": {}
+}
