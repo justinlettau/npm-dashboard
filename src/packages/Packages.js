@@ -1,8 +1,8 @@
+import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 import axios from 'axios';
 import React, { Component } from 'react';
 
 import Package from '../package/Package';
-import { FontAwesomeIcon } from '@fortawesome/react-fontawesome';
 
 export default class Packages extends Component {
   constructor(props) {
