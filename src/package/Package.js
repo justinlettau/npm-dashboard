@@ -27,7 +27,7 @@ export default class Package extends Component {
         <div className="card-body">
           <button type="button" onClick={this.onRemove} className="close">&times;</button>
           <h5 className="card-title">
-            <a href={'https://www.npmjs.com/package/' + this.props.value.package} className="text-body" target="_blank">{this.props.value.package}</a>
+            <a href={'https://www.npmjs.com/package/' + this.props.value.package} className="text-body" target="_blank" rel="noopener noreferrer">{this.props.value.package}</a>
           </h5>
           <div className="text-center">
             <span className="display-4 text-success">{this.props.value.downloads.toLocaleString()}</span>
