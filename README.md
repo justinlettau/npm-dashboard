@@ -6,7 +6,7 @@
 Dashboard to show download counts for any repositories you want.
 
 # Demo
-[https://justinlettau.github.io/npm-dashboard](https://justinlettau.github.io/npm-dashboard).
+[https://justinlettau.github.io/npm-dashboard](https://justinlettau.github.io/npm-dashboard)
 
 # Why
 Built to experiment with [React](https://reactjs.org/).
