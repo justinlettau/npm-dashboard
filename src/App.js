@@ -2,7 +2,7 @@ import '../node_modules/bootstrap/dist/css/bootstrap.min.css';
 import './App.css';
 
 import { library } from '@fortawesome/fontawesome-svg-core';
-import { faNpm } from '@fortawesome/free-brands-svg-icons';
+import { faGithub } from '@fortawesome/free-brands-svg-icons';
 import { faSadCry } from '@fortawesome/free-regular-svg-icons';
 import { faCog, faPlus, faTrashAlt } from '@fortawesome/free-solid-svg-icons';
 import React, { Component } from 'react';
@@ -13,7 +13,7 @@ import Packages from './packages/Packages';
 library.add(
   faCog,
   faSadCry,
-  faNpm,
+  faGithub,
   faPlus,
   faTrashAlt
 );
