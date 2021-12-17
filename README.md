@@ -1,6 +1,4 @@
 [![CI](https://github.com/justinlettau/npm-dashboard/workflows/CI/badge.svg)](https://github.com/justinlettau/npm-dashboard/actions)
-[![Dependency Status](https://david-dm.org/justinlettau/npm-dashboard.svg)](https://david-dm.org/justinlettau/npm-dashboard)
-[![Dev Dependency Status](https://david-dm.org/justinlettau/npm-dashboard/dev-status.svg)](https://david-dm.org/justinlettau/npm-dashboard?type=dev)
 
 # NPM Dashboard
 
