@@ -1,8 +1,12 @@
-import { defineConfig } from 'vite';
-import react from '@vitejs/plugin-react';
+import { sveltekit } from '@sveltejs/kit/vite';
+import { defineConfig } from 'vitest/config';
 
-// https://vitejs.dev/config/
 export default defineConfig({
-  base: process.env.NODE_ENV === 'production' ? '/npm-dashboard/' : '/',
-  plugins: [react()],
+  plugins: [sveltekit()],
+  paths: {
+    base: process.env.NODE_ENV === 'production' ? '/npm-dashboard' : '',
+  },
+  test: {
+    include: ['src/**/*.{test,spec}.{js,ts}'],
+  },
 });
